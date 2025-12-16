@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+    div{
+    
+        height:350px ;
+        padding: 35px;
+
+    }
+    p{
+        float: right;
+        
+        height: 300px;
+        margin: 20px 50px;
+        width:300px;
+        text-align: justify;
+    
+    }
+    img{
+        width: 300px;
+        height: 300px;
+        float:left;
+        margin: 20px 50px;
+
+    
+    }
