@@ -1,0 +1,152 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container-lg navbar-brand{
+ background: linear-gradient(#495466, white);
+}
+.DIV1{ 
+    height: 300PX;
+    width: 600PX;
+     /* border: 3px solid red; */
+     position: absolute;
+     z-index: 2;
+     margin-top: 200px;
+     margin-left: 100px;
+     line-height: 20px;
+     font-weight: 600;
+}
+.DIV1 h1{
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 60px;
+}
+.DIV1 mark{
+  background-color: yellow;
+}
+.main{
+  height: 100vh;
+  width: 100%;
+}
+.main input{
+border-color: #0066FF;
+border-radius: 00;
+width: 200px;
+/* border: none; */
+justify-items: center;
+
+}
+.btnholder{
+display: flex;
+border-color:  #1414eb;
+border-radius: 0;
+
+}
+.btn{
+  background: #0066FF ;
+  color: white;
+  border-radius: 00;
+}
+.btnholder .holder{
+  border: none;
+  background-color:#f3f4f5;
+  height: 40px;
+width: 80px;
+border-radius: 00;
+text-align: center;
+} 
+
+.list{
+  display: flex;
+  margin-top: 15px;
+  gap: 20PX;
+}
+.insta img{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    z-index: 3;
+    margin-left: 680px;
+    margin-top: 410px;
+}
+
+
+.DIV2{
+   height: 700px;
+    width: 900PX; 
+    /* border: 3px solid red; */
+    position: absolute;
+    z-index: 1;
+    margin-left: 330px;
+    background: linear-gradient(180deg, rgba(145, 158, 189, 0.288) 0%, rgba(214, 218, 228, 0.2) 100%);
+;
+    /* margin-top: 120px; */
+}
+.blank .girl{
+ /* border: 3px solid red; */
+ height: 70px;
+ width: 300px;
+ display: flex;
+ margin-left: 400px;
+ border-radius: 350px;
+ margin-top: 20px;
+box-shadow: 4px 4px 4px rgb(177, 171, 171);
+}
+.girl img{
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.containerpic{
+    display: flex;
+    width: 400px;  
+    height: 400px; 
+    gap: 5px;       
+    border: 1px solid #000;
+    margin-top: 40px;
+    margin-left: 400px;
+  }
+
+  .left-pic {
+    flex: 2; 
+  }
+
+  .right-pics {
+    flex: 1; 
+    display: flex;
+    flex-direction: column; 
+    gap: 5px;
+  }
+
+  .right-pics img,
+  .left-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
+  .logos{
+    margin-top: 100px;
+    margin-left: 50px;
+    display: flex;
+gap: 20px;
+  }
+.third{
+  height: 100vh;
+  width: 100%;
+  /* background-color: #0066FF; */
+  margin-top: 50px;
+}
+.items{
+display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
+
+}
+.items h2{
+  font-weight: 900;
+  font-size:40px ;
+  width: 300px;
+  /* border: 2px solid red; */
+}
